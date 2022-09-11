@@ -13,13 +13,13 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 // import "swiper/css/effect-fade ";
 
-import ContractorData from "./ContractorData";
+import BusinessData from "./BusinessData";
 
-const Contractor = () => {
-  const [cardData, setCardData] = useState(ContractorData);
+const Business = () => {
+  const [cardData, setCardData] = useState(BusinessData);
   return (
     <div className={Styles.Rack}>
-      <h3 className={Styles.Rack_Title}>Contractors</h3>
+      <h3 className={Styles.Rack_Title}>Businesses</h3>
       <Swiper
         speed={800}
         modules={[Navigation, FreeMode, Mousewheel]}
@@ -85,7 +85,7 @@ const Contractor = () => {
                     <div className={Styles.Ratings__View}>
                       <div className={Styles.Ratings_Container}>
                         <div className={Styles.Rating}></div>
-                        <div className={Styles.Rating}></div>
+                        <div className={Styles.Rating}></div>F
                         <div className={Styles.Rating}></div>
                       </div>
 
@@ -102,4 +102,4 @@ const Contractor = () => {
   );
 };
 
-export default Contractor;
+export default Business;
