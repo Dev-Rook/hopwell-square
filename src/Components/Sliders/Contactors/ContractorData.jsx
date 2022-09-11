@@ -2,7 +2,7 @@ const ContractorData = [
   {
     id: 1,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",
@@ -10,7 +10,7 @@ const ContractorData = [
   {
     id: 2,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",
@@ -18,7 +18,7 @@ const ContractorData = [
   {
     id: 3,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",
@@ -26,7 +26,7 @@ const ContractorData = [
   {
     id: 4,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",
@@ -34,7 +34,7 @@ const ContractorData = [
   {
     id: 5,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",
@@ -42,7 +42,7 @@ const ContractorData = [
   {
     id: 6,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",
@@ -50,7 +50,7 @@ const ContractorData = [
   {
     id: 7,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",
@@ -58,7 +58,7 @@ const ContractorData = [
   {
     id: 8,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",
@@ -66,7 +66,7 @@ const ContractorData = [
   {
     id: 9,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",
@@ -74,7 +74,7 @@ const ContractorData = [
   {
     id: 10,
     Image: "",
-    Title: "Title",
+    Name: "Name",
     Description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, distinctio nisi impedit ipsum sit qui fugit ratione quam perferendis cupiditate.",
     Category: "Category",

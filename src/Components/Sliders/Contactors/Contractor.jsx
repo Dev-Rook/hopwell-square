@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Styles from "./Styles/Tour.module.css";
+import Styles from "../_Styles_/SliderStyles.module.css";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,7 +14,6 @@ import "swiper/css/scrollbar";
 // import "swiper/css/effect-fade ";
 
 import ContractorData from "./ContractorData";
-import { Category } from "@mui/icons-material";
 
 const Contractor = () => {
   const [cardData, setCardData] = useState(ContractorData);
@@ -71,7 +70,7 @@ const Contractor = () => {
                   </div>
 
                   <div className={Styles.Information_Box}>
-                    <div className={Styles.Name_ - Category}>
+                    <div className={Styles.Name__Category}>
                       <p className={Styles.NC_Text}>{Name}</p>
                       <p className={Styles.NC_Text}>{Category}</p>
                     </div>
@@ -80,6 +79,8 @@ const Contractor = () => {
 
                     <div className={Styles.Ratings__View}>
                       <div className={Styles.Ratings_Container}>
+                        <div className={Styles.Rating}></div>
+                        <div className={Styles.Rating}></div>
                         <div className={Styles.Rating}></div>
                       </div>
 
