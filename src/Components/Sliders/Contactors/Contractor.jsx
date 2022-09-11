@@ -67,9 +67,7 @@ const Contractor = () => {
               <SwiperSlide className={Styles.Slide}>
                 <div className={Styles.Card} key={id}>
                   <div className={Styles.Display_Image_Container}>
-                    <img src={Image} alt="">
-                      Styles.Display_Image
-                    </img>
+                    <img src={Image} alt="" className={Styles.Display_Image} />
                   </div>
 
                   <div className={Styles.Information_Box}>
