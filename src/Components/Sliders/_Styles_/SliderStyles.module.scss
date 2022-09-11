@@ -15,7 +15,7 @@
   .Rack_Title {
     color: black;
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 450;
 
     margin: auto;
@@ -43,8 +43,8 @@
       //   padding-left: 5px;
       //   padding-right: 5px;
 
-      height: 430px;
-      width: 300px;
+      height: 380px;
+      width: 250px;
 
       .Display_Image_Container {
         border: 1px solid black;
@@ -52,6 +52,7 @@
         border-top-right-radius: 10px;
 
         display: flex;
+        overflow: hidden;
 
         height: 50%;
         width: 100%;
@@ -61,7 +62,12 @@
           height: 100%;
           width: 100%;
           object-fit: cover;
+          transition: 0.5s;
         }
+      }
+
+      .Display_Image_Container:hover .Display_Image {
+        transform: scale(1.1);
       }
 
       .Information_Box {
@@ -72,7 +78,6 @@
         display: flex;
         flex-direction: column;
 
-        padding: 5px;
         gap: 10px;
 
         justify-content: space-between;
@@ -82,8 +87,9 @@
         width: 100%;
 
         .Name__Category {
-          border: 1px solid black;
           display: flex;
+
+          padding: 5px;
 
           justify-content: space-between;
           align-items: center;
@@ -93,8 +99,10 @@
           .NC_Text {
             color: black;
             font-family: sans-serif;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 450;
+
+            transition: 0.5s;
           }
         }
 
@@ -102,11 +110,18 @@
           display: flex;
           flex-wrap: wrap;
           text-align: left;
+          padding: 5px;
+
+          color: black;
+          font-family: sans-serif;
+          font-size: 15px;
+          font-weight: 450;
         }
 
         .Ratings__View {
-          border: 1px solid black;
           display: flex;
+
+          padding: 5px;
 
           justify-content: space-between;
           align-items: center;
@@ -114,7 +129,6 @@
           width: 100%;
 
           .Ratings_Container {
-            border: 1px solid black;
             display: flex;
 
             padding: 5px;
@@ -147,6 +161,30 @@
           font-size: 18px;
           font-weight: 400;
         }
+      }
+    }
+
+    .Card:hover {
+      .Display_Image_Container {
+        .Display_Image {
+          transform: scale(1.1);
+        }
+      }
+
+      //   .Name__Category {
+      //     .NC_Text {
+      //         transform: scale(1.1);
+      //     }
+      //   }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .Rack {
+    .Swiper {
+      .Card {
+        height: 400px;
       }
     }
   }

@@ -19,7 +19,7 @@ const Contractor = () => {
   const [cardData, setCardData] = useState(ContractorData);
   return (
     <div className={Styles.Rack}>
-      <h3 className={Styles.Rack_Title}>Take a Tour</h3>
+      <h3 className={Styles.Rack_Title}>Contractors</h3>
       <Swiper
         speed={800}
         modules={[Navigation, FreeMode, Mousewheel]}

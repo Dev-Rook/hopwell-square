@@ -12,7 +12,7 @@
 .Rack .Rack_Title {
   color: black;
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 450;
   margin: auto;
   margin-left: 0px;
@@ -31,14 +31,15 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 430px;
-  width: 300px;
+  height: 380px;
+  width: 250px;
 }
 .Rack .Swiper .Card .Display_Image_Container {
   border: 1px solid black;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   display: flex;
+  overflow: hidden;
   height: 50%;
   width: 100%;
 }
@@ -48,6 +49,10 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: 0.5s;
+}
+.Rack .Swiper .Card .Display_Image_Container:hover .Display_Image {
+  transform: scale(1.1);
 }
 .Rack .Swiper .Card .Information_Box {
   border: 1px solid black;
@@ -55,7 +60,6 @@
   border-bottom-right-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding: 5px;
   gap: 10px;
   justify-content: space-between;
   align-items: center;
@@ -63,8 +67,8 @@
   width: 100%;
 }
 .Rack .Swiper .Card .Information_Box .Name__Category {
-  border: 1px solid black;
   display: flex;
+  padding: 5px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -72,23 +76,28 @@
 .Rack .Swiper .Card .Information_Box .Name__Category .NC_Text {
   color: black;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 450;
+  transition: 0.5s;
 }
 .Rack .Swiper .Card .Information_Box .Description {
   display: flex;
   flex-wrap: wrap;
   text-align: left;
+  padding: 5px;
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 450;
 }
 .Rack .Swiper .Card .Information_Box .Ratings__View {
-  border: 1px solid black;
   display: flex;
+  padding: 5px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
 .Rack .Swiper .Card .Information_Box .Ratings__View .Ratings_Container {
-  border: 1px solid black;
   display: flex;
   padding: 5px;
   gap: 10px;
@@ -111,4 +120,13 @@
   font-family: sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+.Rack .Swiper .Card:hover .Display_Image_Container .Display_Image {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 320px) {
+  .Rack .Swiper .Card {
+    height: 400px;
+  }
 }/*# sourceMappingURL=SliderStyles.module.css.map */
