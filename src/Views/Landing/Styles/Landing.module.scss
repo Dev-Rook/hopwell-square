@@ -29,8 +29,6 @@
   }
 
   .Title__WeatherBox {
-    border: 1px solid white;
-
     display: flex;
     flex-direction: column;
 
@@ -40,7 +38,9 @@
     justify-content: space-evenly;
     align-items: center;
 
-    width: fit-content;
+    width: 50%;
+
+    transition: .5s;
 
     .Brand {
       color: white;
@@ -53,6 +53,35 @@
       text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
         0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
     }
+
+    .Weather_Box {
+      height: 400px;
+      width: 100%;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 996px) {
+  .Landing {
+    .Hero_Board {
+      width: 100%;
+    }
+    .Title__WeatherBox {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .Landing {
+    .Hero_Board {
+      width: 100%;
+    }
+    .Title__WeatherBox {
+      width: 90%;
+    }
   }
 }
 
@@ -62,6 +91,7 @@
       width: 100%;
     }
     .Title__WeatherBox {
+      width: 95%;
       .Brand {
         font-size: 45px;
       }

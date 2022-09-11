@@ -23,16 +23,14 @@
      object-fit: cover;
 }
 .Landing .Title__WeatherBox {
-  border: 1px solid white;
   display: flex;
   flex-direction: column;
   padding: 5px;
   gap: 30px;
   justify-content: space-evenly;
   align-items: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 50%;
+  transition: 0.5s;
 }
 .Landing .Title__WeatherBox .Brand {
   color: white;
@@ -43,10 +41,33 @@
   transition: 0.5s;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
+.Landing .Title__WeatherBox .Weather_Box {
+  height: 400px;
+  width: 100%;
+}
 
+@media only screen and (max-width: 996px) {
+  .Landing .Hero_Board {
+    width: 100%;
+  }
+  .Landing .Title__WeatherBox {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .Landing .Hero_Board {
+    width: 100%;
+  }
+  .Landing .Title__WeatherBox {
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 500px) {
   .Landing .Hero_Board {
     width: 100%;
+  }
+  .Landing .Title__WeatherBox {
+    width: 95%;
   }
   .Landing .Title__WeatherBox .Brand {
     font-size: 45px;
