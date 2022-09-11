@@ -26,9 +26,9 @@
   height: 100%;
 }
 .Rack .Swiper .Card {
-  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #023646;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
