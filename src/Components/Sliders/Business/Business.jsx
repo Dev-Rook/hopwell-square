@@ -17,6 +17,7 @@ import BusinessData from "./BusinessData";
 
 const Business = () => {
   const [cardData, setCardData] = useState(BusinessData);
+
   return (
     <div className={Styles.Rack}>
       <h3 className={Styles.Rack_Title}>Businesses</h3>
@@ -85,7 +86,7 @@ const Business = () => {
                     <div className={Styles.Ratings__View}>
                       <div className={Styles.Ratings_Container}>
                         <div className={Styles.Rating}></div>
-                        <div className={Styles.Rating}></div>F
+                        <div className={Styles.Rating}></div>
                         <div className={Styles.Rating}></div>
                       </div>
 

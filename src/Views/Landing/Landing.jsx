@@ -9,7 +9,6 @@ const Landing = () => {
     <div className={Styles.Landing}>
       <Contractor />
       <Business />
-
     </div>
   );
 };
