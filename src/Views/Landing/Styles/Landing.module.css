@@ -45,6 +45,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .Landing .Hero_Board {
+    width: 100%;
+  }
   .Landing .Title__WeatherBox .Brand {
     font-size: 45px;
   }
