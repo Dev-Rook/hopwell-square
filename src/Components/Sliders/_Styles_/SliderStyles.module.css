@@ -1,5 +1,4 @@
 .Rack {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -7,7 +6,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
-  width: 100%;
+  width: 90%;
 }
 .Rack .Rack_Title {
   color: white;
